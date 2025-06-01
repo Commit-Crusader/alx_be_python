@@ -12,7 +12,7 @@ Operand
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-operand =input("Choose the operation (+, -, *, /):.")
+operand =input('Choose the operation (+, -, *, /):.')
 
 match operand:
     case '+':
