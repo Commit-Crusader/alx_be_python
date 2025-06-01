@@ -12,9 +12,9 @@ Operand
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-operand =input('Choose the operation (+, -, *, /):.')
+operator =input("Choose the operation (+, -, *, /):")
 
-match operand:
+match operator:
     case '+':
         print(f"The result is {num1 + num2}.")
     case '-':
