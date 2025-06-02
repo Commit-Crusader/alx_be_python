@@ -1,5 +1,5 @@
 while True:
-    size = input("Enter the size of the pattern: ")
+    size = int(input("Enter the size of the pattern: "))
     if size.lower() == 'exit':
         break
     if size.isdigit():
