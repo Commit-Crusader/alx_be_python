@@ -1,9 +1,8 @@
-while True:
-    size = int(input("Enter the size of the pattern: "))
-    if size.lower() == 'exit':
-        break
-    if size.isdigit():
-        for _ in range(int(size)):
-            print("*" * int(size))
-    else:
-        print("Invalid input. Enter a number")
+
+size = int(input("Enter the size of the pattern:"))
+
+while size > 0:
+    for i in range(5):
+        print("*", end="")
+    print()
+    size -= 1
