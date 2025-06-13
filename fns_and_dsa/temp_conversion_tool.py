@@ -12,7 +12,7 @@ def convert_to_fahrenheit(celsius):
 
 
 temp = float(input(" Enter the temperature to convert: "))
-unit = input(" Is this temperature in Celsius or in Fahrenheit? (C/F): ").strip().upper()
+unit = input("Is this temperature in Celsius or in Fahrenheit? (C/F): ").strip().upper()
 
 try:
     temperature = float(temp)
