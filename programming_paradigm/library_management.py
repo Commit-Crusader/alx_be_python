@@ -19,3 +19,8 @@ class Library:
 
     def add_book(self, book)
         self.book.append(book).
+
+    def list_available_books(self):
+        for book in self.book
+            if book.is_available():
+                print("Book is available")
