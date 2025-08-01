@@ -21,7 +21,6 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Creating book: {self.title}")  # Optional: shows when object is created
     
     def __del__(self):
         """
